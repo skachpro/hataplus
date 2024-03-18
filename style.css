@@ -292,28 +292,20 @@ aside {
 .spysok li:hover+ul {
     display: block;
 }
-
+/* 
 .spysok ul {
     list-style: none;
-    padding:
-        /* 25px 10px */
-    ;
     background-color: #e4e4ec;
     font-size: 14px;
-    /* color: #666666; */
-    /* border-top: 1px solid #666666;
-    border-bottom: 1px solid #666666; */
 }
 
 .spysok ul:hover {
     display: block;
-}
+} */
 
 .spysok ul>li {
     list-style: none;
-    padding: 25px 30px
-        /* 25px 10px 25px */
-    ;
+    padding: 25px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -324,11 +316,26 @@ aside {
 }
 
 .titles {
+/*     padding: 25px 10px 25px 20px; */
+    background-color: #e4e4ec;
+    list-style: none;
+    border-bottom: 1px solid #666666;
+ /*    border-top: 1px solid #666666; */
+
+}
+
+.titles p{
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.titles-last{
     padding: 25px 10px 25px 20px;
     background-color: #e4e4ec;
     list-style: none;
 }
-
 .titles:hover {
     background-color: #b9b9c6;
 }
