@@ -50,21 +50,25 @@ nav {
 }
 
 .contacts {
-    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%; 
+    line-height: 20px;
 }
 
+
 .contacts a {
+    height: 50%;
     font-size: 18px;
     color: #25252c;
     font-weight: bold;
     text-decoration: none;
     position: relative;
 }
-
-.contacts a:nth-child(1) {
-    margin-bottom: 10px;
+.contacts a:first-child{
+    margin-bottom: 12px;
 }
-
 .contacts a:nth-child(1)::before {
     display: inline-block;
     position: absolute;
@@ -72,6 +76,7 @@ nav {
     content: url(images/phone.png);
     left: -28px;
 }
+
 
 .header_liniya img {
     width: 1px;
@@ -171,6 +176,13 @@ nav {
     padding-bottom: 15px;
 }
 
+.price span{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
 .price:first-child {
     font-size: 40px;
     color: #fd8300;
@@ -194,7 +206,9 @@ nav {
     padding-bottom: 35px;
     box-sizing: content-box;
 }
-
+.about p:first-child{
+    padding-bottom: 20px;
+}
 .about h1 {
     font-size: 30px;
     color: #24242b;
@@ -222,6 +236,7 @@ nav {
 .line {
     border: none;
     border-top: 1px solid #e4e4ec;
+    padding-bottom: 32px;
 }
 
 .pop_project h3 {
@@ -232,17 +247,20 @@ nav {
     padding-bottom: 30px;
     display: inline-block;
 }
-
+figcaption{
+    display: flex;
+    flex-direction: column;
+}
 .card {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     column-gap: 28px;
 }
 
 .card img {
     padding-bottom: 20px;
-    width: 100%;
+    width: 130%;
 
 }
 
@@ -250,16 +268,23 @@ nav {
     font-size: 14px;
     color: #1f1f56;
     font-weight: bold;
-
+    text-decoration: none;
+    margin-bottom: 12px;
 }
-
-.card p {
+.info li{
+    font-size: 13px;
+    color: #9999a6;
+    font-family: "Arial";
+    padding-bottom: 7px;
+    list-style: none;
+}
+/* .card p {
     padding-top: 10px;
     width: 50%;
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
-}
+} */
 
 .main {
     padding-bottom: 50px;
@@ -349,6 +374,15 @@ aside {
     justify-content: space-between;
 }
 
+.footer_menu .contacts{
+    display: flex;
+}
+
+.footer_menu .contacts a{
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer_fast_menu {
     padding-top: 25px;
     width: 8%;
@@ -366,14 +400,7 @@ aside {
 .footer_fast_menu a:hover{
     text-decoration: underline;
 }
-.footer_contacts {
-    padding-top: 42px;
-}
 
-.footer_emails {
-    padding-top: 42px;
-    padding-bottom: 30px;
-}
 
 .footer_cop {
     background-color: #dcdce6;
@@ -388,5 +415,5 @@ aside {
 }
 
 .main_golovne {
-    width: 65%;
+    width: 75%;
 }
