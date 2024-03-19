@@ -41,6 +41,7 @@ nav {
 }
 .menushka a:hover{
     text-decoration: underline;
+    color: #fd8300;
 }
 .header_menu_golovne {
     display: flex;
@@ -129,25 +130,20 @@ nav {
     left: -28px;
 }
 
-.header_button {
+.header_button a{
     font-size: 16px;
-    color: #25252c;
     font-weight: bold;
+    color: #25252c;
     border: 2px solid #fd8300;
-    padding: 15px 20px;
+    padding: 17px 25px;
     border-radius: 50px;
+    text-decoration: none;
     transition: .3s;
 }
-.header_button a {
-    text-decoration: none;
-    color: #25252c;
-
-}
-.header_button:hover{
+.header_button a:hover{
     background-color: #fd8300;
-
+    color: #fff;
 }
-
 
 .prop {
     background-image: url(images/prop_image.png);
@@ -231,6 +227,16 @@ nav {
     line-height: 24px;
     color: #fd8300;
     font-weight: bold;
+    text-decoration: none;
+}
+
+article{
+    text-decoration: none;
+}
+
+article:hover{
+    text-decoration: underline;
+    color: #fd8300;
 }
 
 .line {
@@ -247,6 +253,7 @@ nav {
     padding-bottom: 30px;
     display: inline-block;
 }
+
 figcaption{
     display: flex;
     flex-direction: column;
@@ -287,7 +294,7 @@ figcaption{
 } */
 
 .main {
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 .main_content_menu {
@@ -301,13 +308,21 @@ figcaption{
 }
 
 aside h3 {
-    padding: 25px 10px;
     background-color: #1f1f56;
-    color: #dcdce6;
+    padding: 25px 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border-radius:3px 3px 0px 0px ; 
 }
 
 aside {
     padding-top: 50px;
+}
+
+.menu{
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .spysok li+ul {
@@ -360,6 +375,7 @@ aside {
     padding: 25px 10px 25px 20px;
     background-color: #e4e4ec;
     list-style: none;
+    border-radius: 0px 0px 3px 3px;
 }
 .titles:hover {
     background-color: #b9b9c6;
@@ -392,13 +408,16 @@ aside {
     font-family: "Arial";
     padding-bottom: 30px;
 }
-
-.footer_fast_menu a {
+.footer_fast_menu li{
+    list-style: none;
+}
+.footer_fast_menu li a{
     color: #666666;
     text-decoration: none;
 }
-.footer_fast_menu a:hover{
+.footer_fast_menu li a:hover{
     text-decoration: underline;
+    color: #fd8300;
 }
 
 
@@ -407,7 +426,7 @@ aside {
 }
 
 .footer_cop p {
-    padding: 10px 0px;
+    padding: 17px 0px;
     font-size: 13px;
     color: #9999a6;
     font-family: "Arial";
