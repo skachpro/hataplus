@@ -20,6 +20,11 @@ nav {
     padding: 13px 0px;
 }
 
+.socials{
+    display: flex;
+    align-items: center;
+}
+
 .socials a:nth-child(1) {
     padding-right: 25px;
 }
