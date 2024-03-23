@@ -716,6 +716,10 @@ aside {
 }
 
 .footer_menu {
+    padding: 42px 30px;
+}
+
+.footer_menu {
     display: flex;
     justify-content: space-between;
 }
@@ -768,4 +772,8 @@ aside {
 
 .main_golovne {
     width: 75%;
+}
+.footer_fast_menu {
+    padding-top: 0;
+    padding-bottom: 0;
 }
