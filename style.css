@@ -378,6 +378,7 @@ aside {
 
 .spysok-action-one>.titles-one:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-one:hover>.titles-one P
@@ -448,6 +449,7 @@ aside {
 
 .spysok-action-two>.titles-two:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-two:hover>.titles-two P {
@@ -507,6 +509,7 @@ aside {
 
 .spysok-action-three>.titles-three:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-three:hover>.titles-three P {
@@ -566,6 +569,7 @@ aside {
 
 .spysok-action-four>.titles-four:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-four:hover>.titles-four P {
@@ -625,6 +629,7 @@ aside {
 
 .spysok-action-five>.titles-five:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-five:hover>.titles-five P {
@@ -684,6 +689,7 @@ aside {
 
 .spysok-action-six>.titles-six:hover>P::after {
     rotate: 90deg;
+    filter: brightness(100);
 }
 
 .spysok-action-six:hover>.titles-six P {
@@ -707,6 +713,8 @@ aside {
 .titles-six {
     background-color: #e4e4ec;
     list-style: none;
+    /* border-radius: 0px 0px 3px 3px; */
+    border-radius: 0px 0px 3px 3px;
 }
 
 .titles-six p {
@@ -714,6 +722,7 @@ aside {
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
+    border-radius: 0px 0px 3px 3px;
 }
 
 /* 6end */
