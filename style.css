@@ -39,10 +39,12 @@ nav {
     color: #b1b1d2;
     font-size: 14px;
 }
-.menushka a:hover{
+
+.menushka a:hover {
     text-decoration: underline;
     color: #fd8300;
 }
+
 .header_menu_golovne {
     display: flex;
     justify-content: space-between;
@@ -54,7 +56,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15%; 
+    width: 15%;
     line-height: 20px;
 }
 
@@ -67,9 +69,11 @@ nav {
     text-decoration: none;
     position: relative;
 }
-.contacts a:first-child{
+
+.contacts a:first-child {
     margin-bottom: 12px;
 }
+
 .contacts a:nth-child(1)::before {
     display: inline-block;
     position: absolute;
@@ -130,7 +134,7 @@ nav {
     left: -28px;
 }
 
-.header_button a{
+.header_button a {
     font-size: 16px;
     font-weight: bold;
     color: #25252c;
@@ -140,7 +144,8 @@ nav {
     text-decoration: none;
     transition: .3s;
 }
-.header_button a:hover{
+
+.header_button a:hover {
     background-color: #fd8300;
     color: #fff;
 }
@@ -172,13 +177,14 @@ nav {
     padding-bottom: 15px;
 }
 
-.price span{
+.price span {
     font-weight: bold;
     font-size: 40px;
     color: #fd8300;
     font-weight: bold;
     font-family: "Arial";
 }
+
 .price:first-child {
     font-size: 40px;
     color: #fd8300;
@@ -202,9 +208,11 @@ nav {
     padding-bottom: 35px;
     box-sizing: content-box;
 }
-.about p:first-child{
+
+.about p:first-child {
     padding-bottom: 20px;
 }
+
 .about h1 {
     font-size: 30px;
     color: #24242b;
@@ -230,11 +238,11 @@ nav {
     text-decoration: none;
 }
 
-article{
+article {
     text-decoration: none;
 }
 
-article:hover{
+article:hover {
     text-decoration: underline;
     color: #fd8300;
 }
@@ -254,10 +262,11 @@ article:hover{
     display: inline-block;
 }
 
-figcaption{
+figcaption {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     display: flex;
     justify-content: space-between;
@@ -278,13 +287,15 @@ figcaption{
     text-decoration: none;
     margin-bottom: 12px;
 }
-.info li{
+
+.info li {
     font-size: 13px;
     color: #9999a6;
     font-family: "Arial";
     padding-bottom: 7px;
     list-style: none;
 }
+
 /* .card p {
     padding-top: 10px;
     width: 50%;
@@ -309,41 +320,65 @@ figcaption{
 
 aside h3 {
     background-color: #1f1f56;
-    padding: 25px 10px;
+    padding: 25px 40px 25px 10px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
-    border-radius:3px 3px 0px 0px ; 
+    border-radius: 3px 3px 0px 0px;
 }
 
 aside {
     padding-top: 50px;
 }
 
-.menu{
+.menu {
     border-radius: 3px;
     cursor: pointer;
 }
 
-.spysok li+ul {
+/* start */
+.spysok-action-one .titles-one>.vipadashka-ul {
     display: none;
 }
 
-.spysok li:hover+ul {
+.spysok-action-one .titles-one:hover>.vipadashka-ul {
     display: block;
 }
-/* 
-.spysok ul {
-    list-style: none;
+
+
+
+.spysok-action-one>.titles-one P {
+    /* задаю стиль заголовку випадашки */
     background-color: #e4e4ec;
-    font-size: 14px;
+    position: relative;
 }
 
-.spysok ul:hover {
-    display: block;
-} */
+.spysok-action-one>.titles-one P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
 
-.spysok ul>li {
+.spysok-action-one>.titles-one:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-one:hover>.titles-one P
+
+/* .vipadashka-ul>li */
+    {
+    /* задаю стиль заголовку випадашки ХОВЕР НА ТАЙТЛ */
+    background-color: #fd8300;
+    color: #fff;
+    /* background-color: #b9b9c6; */
+}
+
+/* .spysok li:hover {
+    display: block;
+}  */
+
+.spysok-action-one .titles-one>.vipadashka-ul>li {
+    /* стилізація лішок при випаданні */
     list-style: none;
     padding: 25px 30px;
     background-color: #e4e4ec;
@@ -351,35 +386,321 @@ aside {
     color: #666666;
 }
 
-.spysok ul>li:hover {
+.spysok-action-one .titles-one>.vipadashka-ul>li:hover {
     background-color: #b9b9c6;
 }
 
-.titles {
-/*     padding: 25px 10px 25px 20px; */
+
+.titles-one {
     background-color: #e4e4ec;
     list-style: none;
-    border-bottom: 1px solid #666666;
- /*    border-top: 1px solid #666666; */
-
+    border-bottom: 1px solid #cecedd;
 }
 
-.titles p{
+.titles-one p {
     padding: 25px 10px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
 }
 
-.titles-last{
-    padding: 25px 10px 25px 20px;
-    background-color: #e4e4ec;
-    list-style: none;
-    border-radius: 0px 0px 3px 3px;
+/* end */
+
+
+/* 2start */
+.spysok-action-two .titles-two>.vipadashka-ul {
+    display: none;
 }
-.titles:hover {
+
+.spysok-action-two .titles-two:hover>.vipadashka-ul {
+    display: block;
+}
+
+
+
+.spysok-action-two>.titles-two P {
+    background-color: #e4e4ec;
+    position: relative;
+}
+
+.spysok-action-two>.titles-two P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
+
+.spysok-action-two>.titles-two:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-two:hover>.titles-two P {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.spysok-action-two .titles-two>.vipadashka-ul>li {
+    list-style: none;
+    padding: 25px 30px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #666666;
+}
+
+.spysok-action-two .titles-two>.vipadashka-ul>li:hover {
     background-color: #b9b9c6;
 }
+
+
+.titles-two {
+    background-color: #e4e4ec;
+    list-style: none;
+    border-bottom: 1px solid #cecedd;
+}
+
+.titles-two p {
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+/* 2end */
+
+/*  3start */
+
+.spysok-action-three .titles-three>.vipadashka-ul {
+    display: none;
+}
+
+.spysok-action-three .titles-three:hover>.vipadashka-ul {
+    display: block;
+}
+
+
+.spysok-action-three>.titles-three P {
+    background-color: #e4e4ec;
+    position: relative;
+}
+
+.spysok-action-three>.titles-three P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
+
+.spysok-action-three>.titles-three:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-three:hover>.titles-three P {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.spysok-action-three .titles-three>.vipadashka-ul>li {
+    list-style: none;
+    padding: 25px 30px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #666666;
+}
+
+.spysok-action-three .titles-three>.vipadashka-ul>li:hover {
+    background-color: #b9b9c6;
+}
+
+
+.titles-three {
+    background-color: #e4e4ec;
+    list-style: none;
+    border-bottom: 1px solid #cecedd;
+}
+
+.titles-three p {
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+/* 3end */
+
+/*  4start */
+
+.spysok-action-four .titles-four>.vipadashka-ul {
+    display: none;
+}
+
+.spysok-action-four .titles-four:hover>.vipadashka-ul {
+    display: block;
+}
+
+
+.spysok-action-four>.titles-four P {
+    background-color: #e4e4ec;
+    position: relative;
+}
+
+.spysok-action-four>.titles-four P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
+
+.spysok-action-four>.titles-four:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-four:hover>.titles-four P {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.spysok-action-four .titles-four>.vipadashka-ul>li {
+    list-style: none;
+    padding: 25px 30px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #666666;
+}
+
+.spysok-action-four .titles-four>.vipadashka-ul>li:hover {
+    background-color: #b9b9c6;
+}
+
+
+.titles-four {
+    background-color: #e4e4ec;
+    list-style: none;
+    border-bottom: 1px solid #cecedd;
+}
+
+.titles-four p {
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+/* 4end */
+
+/*  5start */
+
+.spysok-action-five .titles-five>.vipadashka-ul {
+    display: none;
+}
+
+.spysok-action-five .titles-five:hover>.vipadashka-ul {
+    display: block;
+}
+
+
+.spysok-action-five>.titles-five P {
+    background-color: #e4e4ec;
+    position: relative;
+}
+
+.spysok-action-five>.titles-five P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
+
+.spysok-action-five>.titles-five:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-five:hover>.titles-five P {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.spysok-action-five .titles-five>.vipadashka-ul>li {
+    list-style: none;
+    padding: 25px 30px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #666666;
+}
+
+.spysok-action-five .titles-five>.vipadashka-ul>li:hover {
+    background-color: #b9b9c6;
+}
+
+
+.titles-five {
+    background-color: #e4e4ec;
+    list-style: none;
+    border-bottom: 1px solid #cecedd;
+}
+
+.titles-five p {
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+/* 5end */
+
+/* 6start */
+.spysok-action-six .titles-six>.vipadashka-ul {
+    display: none;
+}
+
+.spysok-action-six .titles-six:hover>.vipadashka-ul {
+    display: block;
+}
+
+
+
+.spysok-action-six>.titles-six P {
+    background-color: #e4e4ec;
+    position: relative;
+}
+
+.spysok-action-six>.titles-six P::after {
+    content: url("images/arrow-spysok.png");
+    right: 15px;
+    position: absolute;
+}
+
+.spysok-action-six>.titles-six:hover>P::after {
+    rotate: 90deg;
+}
+
+.spysok-action-six:hover>.titles-six P {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.spysok-action-six .titles-six>.vipadashka-ul>li {
+    list-style: none;
+    padding: 25px 30px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #666666;
+}
+
+.spysok-action-six .titles-six>.vipadashka-ul>li:hover {
+    background-color: #b9b9c6;
+}
+
+
+.titles-six {
+    background-color: #e4e4ec;
+    list-style: none;
+}
+
+.titles-six p {
+    padding: 25px 10px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+/* 6end */
+
 
 .footer {
     background-color: #ededf5;
@@ -390,11 +711,11 @@ aside {
     justify-content: space-between;
 }
 
-.footer_menu .contacts{
+.footer_menu .contacts {
     display: flex;
 }
 
-.footer_menu .contacts a{
+.footer_menu .contacts a {
     display: flex;
     justify-content: space-around;
 }
@@ -408,14 +729,17 @@ aside {
     font-family: "Arial";
     padding-bottom: 30px;
 }
-.footer_fast_menu li{
+
+.footer_fast_menu li {
     list-style: none;
 }
-.footer_fast_menu li a{
+
+.footer_fast_menu li a {
     color: #666666;
     text-decoration: none;
 }
-.footer_fast_menu li a:hover{
+
+.footer_fast_menu li a:hover {
     text-decoration: underline;
     color: #fd8300;
 }
