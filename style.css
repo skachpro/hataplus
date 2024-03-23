@@ -320,7 +320,7 @@ figcaption {
 
 aside h3 {
     background-color: #1f1f56;
-    padding: 25px 40px 25px 10px;
+    padding: 17px 50px 15px 10px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -380,7 +380,7 @@ aside {
 .spysok-action-one .titles-one>.vipadashka-ul>li {
     /* стилізація лішок при випаданні */
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -398,7 +398,7 @@ aside {
 }
 
 .titles-one p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
@@ -440,7 +440,7 @@ aside {
 
 .spysok-action-two .titles-two>.vipadashka-ul>li {
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -458,7 +458,7 @@ aside {
 }
 
 .titles-two p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
@@ -499,7 +499,7 @@ aside {
 
 .spysok-action-three .titles-three>.vipadashka-ul>li {
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -517,7 +517,7 @@ aside {
 }
 
 .titles-three p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
@@ -558,7 +558,7 @@ aside {
 
 .spysok-action-four .titles-four>.vipadashka-ul>li {
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -576,7 +576,7 @@ aside {
 }
 
 .titles-four p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
@@ -617,7 +617,7 @@ aside {
 
 .spysok-action-five .titles-five>.vipadashka-ul>li {
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -635,7 +635,7 @@ aside {
 }
 
 .titles-five p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
@@ -676,7 +676,7 @@ aside {
 
 .spysok-action-six .titles-six>.vipadashka-ul>li {
     list-style: none;
-    padding: 25px 30px;
+    padding: 20px 0px 20px 30px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
@@ -693,7 +693,7 @@ aside {
 }
 
 .titles-six p {
-    padding: 25px 10px;
+    padding: 20px 0px 20px 15px;
     background-color: #e4e4ec;
     font-size: 14px;
     color: #3a3a3a;
