@@ -62,7 +62,7 @@ nav {
 
 
 .contacts a {
-    height: 50%;
+/*     height: 50%; */
     font-size: 18px;
     color: #25252c;
     font-weight: bold;
@@ -103,14 +103,18 @@ nav {
 
 .email a:first-child {
     font-size: 16px;
-    text-decoration: underline;
     color: #25252c;
+    text-decoration: none;
     position: relative;
+}
+.email a:first-child:hover{
+    text-decoration: underline;
 }
 
 .email a:first-child::before {
     content: url(images/email.png);
     display: inline-block;
+    ba
     position: absolute;
     top: 1px;
     left: -28px;
@@ -127,6 +131,7 @@ nav {
     content: '';
     display: inline-block;
     position: absolute;
+    background-repeat: no-repeat;
     top: 20px;
     width: 19px;
     height: 19px;
