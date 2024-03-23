@@ -164,9 +164,9 @@ div.skype a.sk::before {
 
 .prop {
     background-image: url(images/prop_image.png);
-    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 .prop h2 {
@@ -186,7 +186,7 @@ div.skype a.sk::before {
     color: #ffffff;
     font-family: "Arial";
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 
 .price span {
