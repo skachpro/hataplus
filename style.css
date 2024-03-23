@@ -82,6 +82,9 @@ nav {
     left: -28px;
 }
 
+.header_liniya {
+    padding-right: 30px;
+}
 
 .header_liniya img {
     width: 1px;
