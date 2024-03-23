@@ -265,6 +265,12 @@ article:hover {
     padding-bottom: 30px;
     display: inline-block;
 }
+.card figure{
+    width: 30%;
+}
+.card figure:hover a{
+    text-decoration: underline;
+}
 figcaption {
     display: flex;
     flex-direction: column;
@@ -273,13 +279,13 @@ figcaption {
 .card {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     column-gap: 28px;
 }
 
 .card img {
     padding-bottom: 20px;
-    width: 130%;
+    width: 100%;
 
 }
 
