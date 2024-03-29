@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+* a{
+    cursor: pointer;
+}
+
 nav {
     background-color: #fff;
     background-color: #1f1f56;
@@ -17,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 0px;
+    padding: 19px 0px;
 }
 
 .socials{
@@ -46,7 +50,6 @@ nav {
 }
 
 .menushka a:hover {
-    text-decoration: underline;
     color: #fd8300;
 }
 
@@ -690,10 +693,12 @@ aside {
 .spysok-action-six>.titles-six:hover>P::after {
     rotate: 90deg;
     filter: brightness(100);
+    
 }
 
 .spysok-action-six:hover>.titles-six P {
     background-color: #fd8300;
+    border-radius: 0px 0px 0px 0px;
     color: #fff;
 }
 
@@ -703,10 +708,12 @@ aside {
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
+    border-radius: 0px 0px 3px 3px;
 }
 
 .spysok-action-six .titles-six>.vipadashka-ul>li:hover {
     background-color: #b9b9c6;
+    
 }
 
 
@@ -714,7 +721,7 @@ aside {
     background-color: #e4e4ec;
     list-style: none;
     /* border-radius: 0px 0px 3px 3px; */
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 0px 0px 9px 9px;
 }
 
 .titles-six p {
