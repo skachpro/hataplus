@@ -708,7 +708,7 @@ aside {
     background-color: #e4e4ec;
     font-size: 14px;
     color: #666666;
-    border-radius: 0px 0px 3px 3px;
+    /* border-radius: 0px 0px 3px 3px; */
 }
 
 .spysok-action-six .titles-six>.vipadashka-ul>li:hover {
@@ -716,6 +716,9 @@ aside {
     
 }
 
+.spysok-action-six .titles-six:hover>.vipadashka-ul>li:last-child{
+    border-radius: 0px 0px 3px 3px;
+}
 
 .titles-six {
     background-color: #e4e4ec;
