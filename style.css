@@ -23,20 +23,36 @@ nav {
     align-items: center;
     padding: 19px 0px;
 }
+.socials a{
+    display: block;
+    background: url(images/spryte.hata.png) no-repeat;
+    transition: .3s;
+}
+
+a.fb{
+    background-position: 0 0;
+    width: 11px;
+    height: 19px;
+}
+a.tw{
+    background-position: -12px 0;
+    width: 17px;
+    height: 19px;
+}
+a.inst{
+    background-position: -30px 0;
+    width: 20px;
+    height: 20px;
+}
+a.fb:hover,a.tw:hover,a.inst:hover{
+    background-position-y: -23px;
+}
 
 .socials{
     display: flex;
     align-items: center;
+    column-gap: 25px;
 }
-
-.socials a:nth-child(1) {
-    padding-right: 25px;
-}
-
-.socials a:nth-child(2) {
-    padding-right: 25px;
-}
-
 .menushka {
     display: flex;
     justify-content: space-between;
@@ -83,10 +99,14 @@ nav {
 }
 
 .contacts a:nth-child(1)::before {
+    content: "";
     display: inline-block;
     position: absolute;
     top: 1px;
-    content: url(images/phone.png);
+    width: 17px;
+    height: 16px;
+   background-image: url(images/spryte.hata.png);
+   background-position: -50px 0;
     left: -28px;
 }
 
@@ -123,11 +143,15 @@ nav {
 }
 
 .email a:first-child::before {
-    content: url(images/email.png);
+    content:"";
+    background-image: url(images/spryte.hata.png);
     display: inline-block;
     position: absolute;
+    width: 17px;
+    height: 13px;
     top: 1px;
     left: -28px;
+    background-position: -68px 0;
 }
 
 .skype a {
@@ -145,7 +169,8 @@ div.skype a.sk::before {
     top: 20px;
     width: 19px;
     height: 19px;
-    background-image: url(images/skype.png);
+    background-image: url(images/spryte.hata.png);
+    background-position: -87px 0;
     left: -28px;
 }
 
