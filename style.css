@@ -29,7 +29,7 @@
     margin: 0;
 }
 
-* a{
+[href="#"]{
     cursor: pointer;
 }
 
@@ -108,16 +108,14 @@ a.fb:hover,a.tw:hover,a.inst:hover{
     width: 15%;
     line-height: 20px;
 }
-
-
-.contacts a {
-/*     height: 50%; */
+[href^="tel:"]{
     font-size: 18px;
     color: #25252c;
     font-weight: bold;
     text-decoration: none;
     position: relative;
 }
+
 
 .contacts a:first-child {
     margin-bottom: 12px;
@@ -151,7 +149,7 @@ a.fb:hover,a.tw:hover,a.inst:hover{
     padding-bottom: 10px;
 }
 
-.email a {
+[href^="mailto:"]{
     font-size: 16px;
     color: #25252c;
     text-decoration: none;
@@ -179,7 +177,7 @@ a.fb:hover,a.tw:hover,a.inst:hover{
     background-position: -68px 0;
 }
 
-.skype a {
+[href^="skype:"]{
     text-decoration: none;
     position: relative;
     padding-top: 20px;
