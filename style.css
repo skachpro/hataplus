@@ -91,7 +91,7 @@ a.fb:hover,a.tw:hover,a.inst:hover{
     font-size: 14px;
 }
 
-.menushka>li:hover {
+.menushka>li:hover,a:hover {
     color: #fd8300;
 }
 
@@ -875,11 +875,31 @@ aside {
 }
 
 .nav-menu li{
-    background-color: #cecedd;
+    background-color: #e4e4ec;
     position: relative;
     padding: 10px;
     min-width: 125px;
 }
+
+.batk{
+    position: relative;
+}
+
+.nav-menu .batk::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 120px;
+    top: 12px;
+    background-image: url("images/arrow-spysok.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+/* .nav-menu .batk:hover>.nav-menu .batk::after{
+    rotate: 90deg;
+    filter: brightness(100);
+} */
 
 .nav-menu-podmenu{
     display: none;
@@ -898,10 +918,33 @@ aside {
     position: absolute;
 
 }
+.nav-menu li{
+    color: #25252c;
+    border-bottom: 1px solid #cecedd;
+}
+.nav-menu li:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+.nav-menu li:last-child{
+    border-radius: 0px 0px 5px 5px;
+    border: 0;
+}
+.nav-menu li:hover{
+    background-color: #fd8300;
+    color: #fff;
+}
+
+/* .nav-menu li:hover>.nav-menu .batk::after{
+    rotate: 90deg;
+} */
+
 .nav-menu li:hover>.nav-menu-podmenu{
     display: block;
 }
 
+.nav-menu li:hover>.nav-menu .batk::after{
+    rotate: 90deg;
+}
 
 .ciny h1{
     padding-top: 40px;
