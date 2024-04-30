@@ -923,7 +923,7 @@ aside {
     border-bottom: 1px solid #cecedd;
 }
 .nav-menu li:first-child{
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px ф0px 0px;
 }
 .nav-menu li:last-child{
     border-radius: 0px 0px 5px 5px;
@@ -1052,4 +1052,7 @@ tr td:nth-child(5){
 }
 th:last-child{
     text-align: right;
+}
+.header{
+    box-shadow: 0 0 5px rgba(0,0,0,0.1)
 }
