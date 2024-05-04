@@ -932,7 +932,7 @@ aside {
     border-bottom: 1px solid #cecedd;
 }
 .nav-menu li:first-child{
-    border-radius: 5px 5px ф0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 .nav-menu li:last-child{
     border-radius: 0px 0px 5px 5px;
