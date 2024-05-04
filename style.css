@@ -880,16 +880,25 @@ aside {
     padding: 10px;
     min-width: 125px;
 }
+.nav-menu a{
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 14px;
+    color: #25252c;
+}
 
+.nav-menu li:hover>a{
+    color: #fff;
+}
 .batk{
     position: relative;
 }
 
-.nav-menu .batk::after{
+.nav-menu .batk-text::after{
     content: "";
     width: 20px;
     height: 20px;
-    left: 120px;
+    right: 5px;
     top: 12px;
     background-image: url("images/arrow-spysok.png");
     background-repeat: no-repeat;
@@ -933,18 +942,10 @@ aside {
     background-color: #fd8300;
     color: #fff;
 }
-
-/* .nav-menu li:hover>.nav-menu .batk::after{
-    rotate: 90deg;
-} */
-
 .nav-menu li:hover>.nav-menu-podmenu{
     display: block;
 }
 
-.nav-menu li:hover>.nav-menu .batk::after{
-    rotate: 90deg;
-}
 
 .ciny h1{
     padding-top: 40px;
@@ -1055,4 +1056,14 @@ th:last-child{
 }
 .header{
     box-shadow: 0 0 5px rgba(0,0,0,0.1)
+}
+
+
+.nav-menu .batk:hover>.batk-text::after{
+  /*   right: 25px;
+    top: 10px; */
+    right: 17px;
+    top: 15px;
+    filter: brightness(100);
+    transform: rotate(90deg) ;
 }
